@@ -43,7 +43,7 @@ specified patterns. PowerShell includes the following comparison operators:
 By default, all comparison operators are case-insensitive. To make a comparison
 operator case-sensitive, add a `c` after the `-`. For example, `-ceq` is the
 case-sensitive version of `-eq`. To make the case-insensitivity explicit,
-add an `i` before `-`. For example, `-ieq` is the explicitly case-insensitive
+add an `i` after the `-`. For example, `-ieq` is the explicitly case-insensitive
 version of `-eq`.
 
 When the input of an operator is a scalar value, the operator returns a
